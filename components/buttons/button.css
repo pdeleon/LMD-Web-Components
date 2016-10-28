@@ -1,13 +1,13 @@
-* {
+/* MAIN */
+body, html {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font: 16px "Open Sans", sans-serif;
 }
+
+/* BUTTONS*/
+
 section.main {
-  margin-top: 50px;
-  position: absolute;
-  left: 20px;
-  z-index: -1;
+  margin: 50px 0 0 25px;
 }
 h3 {
   margin-top: 10px;
@@ -21,8 +21,6 @@ h3 {
    margin: 5px;
   border: 1px solid #117D1F;
   border-radius: 5px;
-  /* x-offset y-offset blur spread */
-
   box-shadow: 0 6px  4px -3px rgba(0, 0, 0, .6);
   text-align: center;
   text-decoration: none;
@@ -48,94 +46,4 @@ h3 {
 
 .button-lg {
   font-size: 2rem;
-}
-
-
-/* First level navigation*/
-nav {
-  z-index: 3;
-}
-nav.lato {
-  font-family: 'Lato', sans-serif;
-}
-nav ul {
-  list-style-type: none;
-}
-
-nav a {
-  text-decoration: none;
-  display: block;
-     width: 100%;
-     height: 100%;
-}
-
-nav > ul > li {
-  background-color: #35313e;
-  width: 16.666%;
-  float: left;
-  text-align: center;
-  font-size: 1rem;
-  padding: 5px 0;
-}
-nav > ul > li > a {
-  color: #fff;
-}
-
-nav > ul > li:hover {
-  background-color: #edecee;
-  color: #35313e;
-}
-
-nav > ul > li.forms:hover {
-  padding: 5px 0 0 0 ;
-}
-nav > ul > li:focus {
-  background-color: #edecee;
-  color: #35313e;
-}
-
-nav > ul > li:hover > a {
-  background-color: #edecee;
-  color: #35313e;
-}
-nav > ul > li:focus > a {
-  background-color: #edecee;
-  color: #35313e;
-}
-
-
-/* Second layer navigation*/
-
-nav > ul > li > ul {
-  display: none;
-}
-nav > ul > li:hover > ul {
-  display: block;
-  margin-top: 5px;
-}
-nav > ul > li:focus > ul {
-  display: block;
-  margin-top: 5px;
-}
-nav > ul > li > ul > li {
-  text-align: left;
-  background-color: #35313e;
-  font-size: 1rem;
-  padding: 5px 0 5px 8px;
-  width: 100%;
-}
-nav > ul > li > ul > li > a {
-  color: #fff;
-}
-nav > ul > li > ul > li:hover {
-  background-color: #edecee;
-}
-nav > ul > li > ul > li:focus {
-  background-color: #edecee;
-}
-nav > ul > li > ul > li:hover > a {
-  color: #4c475a;
-}
-nav > ul > li > ul > li:focus > a {
-  color: #4c475a;
 }

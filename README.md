@@ -2,4 +2,4 @@
 
 ## Components
 
-- [Buttons](https://pdeleon.github.io/Web-Components/components/buttons/)
+- Buttons [preview](https://pdeleon.github.io/LMD-Web-Components/components/buttons/)  and [files](components/buttons/)
